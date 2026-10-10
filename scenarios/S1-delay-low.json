@@ -1,0 +1,8 @@
+{
+  "id": "S1",
+  "name": "delay-low",
+  "delay_ms": 50,
+  "jitter_ms": 0,
+  "packet_loss_percent": 0,
+  "profile_name": "<MAP TO SUPPLIED PROFILE>"
+}
