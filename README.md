@@ -3,7 +3,7 @@
 **Problem:** PS-029 Application-Oriented Network Quality Evaluation Using QoO.
 **Solution:** QoO-X, a reproducible experiment and comparison layer around the supplied IETF QoO testbed. We do not change the QoO mathematics.
 
-- Team code: REPLACE_WITH_THE_EXACT_CODE_SHOWN_ON_THE_AIORI_PORTAL (do not guess)
+- Team code: A3-PS029-TC506
 - Team leader: Satyam Raj - Team member: Pranaba Ballav - Faculty mentor: Dr. Subhayu Ghosh
 - Team introduction video: PASTE_YOUTUBE_LINK_HERE (also in `video/team-introduction-link.txt`)
 
