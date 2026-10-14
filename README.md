@@ -5,7 +5,7 @@
 
 - Team code: A3-PS029-TC506
 - Team leader: Satyam Raj - Team member: Pranaba Ballav - Faculty mentor: Dr. Subhayu Ghosh
-- Team introduction video: (https://youtu.be/RHU6t69ZPPs?si=cLAVkb7L_mWn_S9U)
+- Team introduction video: (https://youtu.be/RHU6t69ZPPs?si=IWVUWrU8JCZN5Hoe)
 
 ## What we do
 Two mentor-approved application profiles (WebRTC and DASH) are tested under six controlled scenarios (delay, jitter, loss). We record QoO, latency, throughput and at least one application metric, then compare both profiles under identical conditions.
