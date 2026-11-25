@@ -1,0 +1,18 @@
+name: QoO-X checks
+on:
+  push:
+  pull_request:
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m compileall -q qoo_x qoo_x_app.py tests
+        working-directory: qoo-x
+      - run: python -m unittest discover -s tests -v
+        working-directory: qoo-x
+      - run: python -m compileall -q analysis
+      - run: python -m unittest discover -s analysis -p 'test_*.py' -v

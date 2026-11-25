@@ -1,0 +1,8 @@
+[
+  {"id":"S0", "name":"Baseline", "delay_ms":0, "jitter_ms":0, "packet_loss_percent":0, "description":"No added impairment; reference run."},
+  {"id":"S1", "name":"Low delay", "delay_ms":50, "jitter_ms":0, "packet_loss_percent":0, "description":"Add 50 ms delay only."},
+  {"id":"S2", "name":"High delay", "delay_ms":100, "jitter_ms":0, "packet_loss_percent":0, "description":"Add 100 ms delay only."},
+  {"id":"S3", "name":"Low jitter", "delay_ms":0, "jitter_ms":20, "packet_loss_percent":0, "description":"Add 20 ms jitter only."},
+  {"id":"S4", "name":"High jitter", "delay_ms":0, "jitter_ms":50, "packet_loss_percent":0, "description":"Add 50 ms jitter only."},
+  {"id":"S5", "name":"Packet loss", "delay_ms":0, "jitter_ms":0, "packet_loss_percent":1, "description":"Add 1% packet loss only."}
+]

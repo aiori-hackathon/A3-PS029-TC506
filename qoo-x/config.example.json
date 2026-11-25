@@ -1,0 +1,13 @@
+{
+  "api_base_url": "http://localhost:9000",
+  "testbed_path": "",
+  "gateway_control_mode": "manual",
+  "custom_payload_keys": {
+    "delay_ms": "delay_ms",
+    "jitter_ms": "jitter_ms",
+    "packet_loss_percent": "loss_percent"
+  },
+  "command_timeout_seconds": 600,
+  "control_panel_url": "http://localhost:8080",
+  "grafana_url": "http://localhost:3000"
+}
